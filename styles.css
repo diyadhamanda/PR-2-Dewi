@@ -881,8 +881,9 @@ header nav>a:hover{
 
 .testimonials{
   
-    background-image: url('./images/testimonials-bg.jpg');
+    background: url('./images/testimonials-bg.jpg'),#000000bd;
     height: 500px;
+    background-blend-mode: darken;
 }
 .testimonials:before {
     content: "";
